@@ -12,7 +12,8 @@ Build with **Airflow 2.4.1**
 ## Data Source
 The data source was downloaded from [NTC Taxi Trips](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) website from January 2021 to December 2021 in Parquet format.
 
-After download, place it under `./data/{YYYY-MM}` folder based on when the data created. This image below will tell you the final structure. ![foldering-structure](./images/folder-structures.png)
+After download, place it under `./data/{YYYY-MM}` folder based on when the data created. This image below will tell you the final structure. <br>
+![foldering-structure](./images/folder-structures.png)
 
 
 # No Primary Key on Table ?

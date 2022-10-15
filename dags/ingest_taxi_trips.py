@@ -22,7 +22,6 @@ default_args = {
 # definition of dag
 dag = DAG(
     dag_id='ingest_taxi_trips',
-    # for testing purpose, will be run at 2021-01-01 later
     start_date=datetime(2021, 1, 1),
     end_date=datetime(2022, 1, 1), # to cover at data that arrives after 2021-12-31 23:00:00 UTC
     default_args=default_args,
