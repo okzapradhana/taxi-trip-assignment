@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS public.raw_trip_data (
+    vendor_id INTEGER,
+    tpep_pickup_datetime TIMESTAMP,
+    tpep_dropoff_datetime TIMESTAMP,
+    trip_period TEXT,
+    passenger_count INTEGER,
+    trip_distance FLOAT,
+    rate_code_id INTEGER,
+    store_and_fwd_flag TEXT,
+    pu_location_id INTEGER,
+    do_location_id INTEGER,
+    payment_type INTEGER,
+    fare_amount FLOAT,
+    extra FLOAT,
+    mta_tax FLOAT,
+    tip_amount FLOAT,
+    tolls_amount FLOAT,
+    improvement_surcharge FLOAT,
+    total_amount FLOAT,
+    congestion_surcharge FLOAT,
+    airport_fee FLOAT
+)

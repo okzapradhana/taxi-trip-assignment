@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS staging.raw_trip_data;
